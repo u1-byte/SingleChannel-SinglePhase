@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Single Channel - Single Phase Model</string>
+    <string name="penjelasan">DESKRIPSI</string>
+    <string name="rumus">RUMUS</string>
+    <string name="hitung">HITUNG</string>
+    <string name="rata_rata_unit_yang_datang_per_satuan_waktu">Rata - rata unit yang datang per satuan waktu (λ)</string>
+    <string name="rata_rata_unit_yang_dilayani_per_satuan_waktu">Rata - rata unit yang dilayani per satuan waktu (µ)</string>
+    <string name="analisis">ANALISIS</string>
+    <string name="hasil_analisa">HASIL ANALISA</string>
+    <string name="result">result</string>
+    <string name="biaya_tunggu_per_satuan_waktu_wc">Biaya tunggu per satuan waktu (WC)</string>
+    <string name="biaya_pelayanan_per_satuan_waktu_sc">Biaya pelayanan per satuan waktu (SC)</string>
+    <string name="banyaknya_anggota_kelompok_pelayanan_n">Banyaknya anggota kelompok pelayanan (n)</string>
+    <string name="single_channel_single_phase_model">SINGLE CHANNEL - SINGLE PHASE MODEL</string>
+    <string name="deskripsi_singkat">DESKRIPSI SINGKAT</string>
+    <string name="m">\n
+        M pertama : rata - rata kedatangan yang mengikuti distribusi probabilitas Poisson\n
+        M kedua : tingkat pelayanan yang mengikuti distribusi probabilitas eksponensial\n
+        1 : jumlah fasilitas pelayanan dalam sistem adalah satu saluran
+    </string>
+    <string name="single_channel_single_phase_m_m_1">SINGLE CHANNEL - SINGLE PHASE (M/M/1)</string>
+    <string name="scsp">Single Channel berarti hanya ada satu jalur yang memasuki sitem pelayanan atau ada satu fasilitas pelayanan. Single Phase berarti hanya ada satu pelayanan.</string>
+    <string name="asumsi_yang_digunakan">ASUMSI YANG DIGUNAKAN :</string>
+    <string name="asumsi">\n
+        - \tPopulasi input tidak terbatas.\n
+        - \tDistribusi kedatangan pelanggan potensial mengikuti Distribusi Poisson.\n
+        - \tDisiplin pelayanan mengikuti pedoman FCFS/FIFO.\n
+        - \tFasilitas pelayanan terdiri dari saluran tunggal.\n
+        - \tDistribusi pelayanan mengikuti distribusi eksponensial.\n
+        - \tKapasitas sistem diasumsikan tak terbatas.\n
+        </string>
+    <string name="notasi_persamaan_yang_digunakan"><![CDATA[NOTASI & PERSAMAAN YANG DIGUNAKAN]]></string>
+    <string name="persamaan">Berdasarkan asumsi model M/M/1 diperoleh persamaan sebagai berikut :</string>
+    <string name="p">P = λ / µ</string>
+    <string name="p2">Tingkat intensitas fasilitas pelayanan (probabilitas pelayan sedang sibuk).</string>
+    <string name="po">Po = 1 - P</string>
+    <string name="po2">Peluang tidak ada pelanggan dalam sistem (Idle Time).</string>
+    <string name="L">L = λ / (µ - λ)</string>
+    <string name="L2">Rata - rata pelanggan yang diharapkan dalam sistem.</string>
+    <string name="Lq">Lq = λ^2 / µ(µ - λ)</string>
+    <string name="lq2">Rata - rata pelanggan yang diharapkan menunggu dalam antrian.</string>
+    <string name="w">W = 1 / µ - λ</string>
+    <string name="w2">Waktu yang diharapkan oleh pelanggan selama dalam sistem.</string>
+    <string name="wq">Wq = λ / µ(µ - λ)</string>
+    <string name="wq2">Waktu yang diharapkan oleh pelanggan selama menunggu dalam antrian.</string>
+    <string name="sc">SC = n * SC</string>
+    <string name="sc2">Total biaya pelayanan dari n anggota kelompok.</string>
+    <string name="wc">WC = L * WC</string>
+    <string name="wc2">Total biaya menunggu per pelanggan.</string>
+    <string name="tc">TC = SC + WC</string>
+    <string name="tc2">Total biaya yang dikeluarkan per satuan waktu.</string>
+    <string name="perhitungan_single_channel_nsingle_phase_model">PERHITUNGAN SINGLE CHANNEL - \nSINGLE PHASE MODEL</string>
+    <string name="yuma_anugrah_virya_gunawan_n1808561059">Yuma Anugrah Virya Gunawan\n1808561059</string>
+</resources>
